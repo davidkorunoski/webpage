@@ -6,7 +6,7 @@ html,body{
     padding: 0;
 }
 body{
-  background-image: url(pozadina.png);
+    background-image: url(pozadina.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ ul{
     margin: 0px;
 }
 ul li{
-   margin: 0 20px;
+    margin: 0 20px;
 }
 a{
     display: inline-block;
