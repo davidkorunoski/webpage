@@ -1,0 +1,62 @@
+html,body{
+    font-family: Verdana;
+    font-weight: bolder;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-image: url(pozadina.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.glavno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    text-shadow: black 2px 2px 2px;
+    margin-bottom: -15px;
+}
+h3{
+    color: white;
+    margin-bottom: 13px;
+    text-shadow: black 2px 2px 2px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+   margin: 0 20px;
+}
+a{
+    display: inline-block;
+    padding: 10px 10px;
+    background: #638fb7;
+    border-radius: 8px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-shadow: black 2px 2px 2px;
+    width: 100%;
+    max-width: 200px;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+a:hover{
+    transform: scale(1.1);
+    background: #3b5477;
+}
