@@ -10,100 +10,32 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
 }
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-        padding: 10px;
-        min-height: 100vh;
-        height: auto;
-        background-size: cover;
-        background-position: center;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
-    h1, h2, h3, p {
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 18px;
-    }
-
-    ul {
-        flex-direction: column;
-        padding: 10px 0;
-        margin: 0 auto;
-        width: fit-content;
-    }
-
-    ul li {
-        margin: 10px 0;
-    }
-
-    a {
-        max-width: 100%;
-        padding: 12px 20px;
-        font-size: 18px;
-    }
-
-    .glavno {
-        height: auto;
-        padding: 20px;
-    }
-
-    .sliki {
-        flex-direction: column;
-        padding: 10px 20px;
-    }
-
-    .sliki img {
-        margin: 0 0 10px 0;
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
-}
-h1{
-    margin-top: 15px;
-    color: white;
-}
-hr{
-    margin-top: -17px;
-    border: none;
-    border-top: 2px solid white;
-}
-p{
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.biography{
-    display: inline-block;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-radius: 20px;
-    background: lightblue;
-}
-.sliki{
+.glavno {
     display: flex;
     justify-content: center;
-    padding: 10px;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
-.sliki img{
-    border-radius: 10%;
-    margin-right: 8px;
-    border: 2px solid white;
+h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 40px;
+    text-shadow: black 2px 2px 2px;
+    margin-bottom: -15px;
+}
+h3{
+    color: white;
+    margin-bottom: 13px;
+    text-shadow: black 2px 2px 2px;
 }
 ul{
     display: flex;
     list-style-type: none;
-    padding: 10px;
+    padding: 0px;
     margin: 0px;
 }
 ul li{

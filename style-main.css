@@ -10,66 +10,8 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     margin: 0;
-}
-@media (max-width: 768px) {
-    body {
-        font-size: 16px;
-        padding: 10px;
-
-        min-height: 100vh;
-        height: auto;
-        background-size: cover;
-        background-position: center;
-    }
-
-    img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-    }
-
-    h1, h2, h3, p {
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 18px;
-    }
-
-    ul {
-        flex-direction: column;
-        padding: 10px 0;
-        margin: 0 auto;
-        width: fit-content;
-    }
-
-    ul li {
-        margin: 10px 0;
-    }
-
-    a {
-        max-width: 100%;
-        padding: 12px 20px;
-        font-size: 18px;
-    }
-
-    .glavno {
-        height: auto;
-        padding: 20px;
-    }
-
-    .sliki {
-        flex-direction: column;
-        padding: 10px 20px;
-    }
-
-    .sliki img {
-        margin: 0 0 10px 0;
-        max-width: 100%;
-        height: auto;
-        display: block;
-    }
 }
 .glavno {
     display: flex;
