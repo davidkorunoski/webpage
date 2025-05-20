@@ -13,6 +13,26 @@ body{
     height: 100vh;
     margin: 0;
 }
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1, h2, h3, p {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
 .glavno {
     display: flex;
     justify-content: center;
