@@ -13,29 +13,40 @@ body{
     height: 100vh;
     margin: 0;
 }
-.glavno {
+h1{
+    margin-top: 15px;
+    color: white;
+}
+hr{
+    margin-top: -17px;
+    border: none;
+    border-top: 2px solid white;
+}
+p{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.biography{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background: lightblue;
+}
+.sliki{
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+    padding: 10px;
 }
-h1{
-    font-weight: bolder;
-    color: white;
-    font-size: 40px;
-    text-shadow: black 2px 2px 2px;
-    margin-bottom: -15px;
-}
-h3{
-    color: white;
-    margin-bottom: 13px;
-    text-shadow: black 2px 2px 2px;
+.sliki img{
+    border-radius: 10%;
+    margin-right: 8px;
+    border: 2px solid white;
 }
 ul{
     display: flex;
     list-style-type: none;
-    padding: 0px;
+    padding: 10px;
     margin: 0px;
 }
 ul li{
