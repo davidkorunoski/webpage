@@ -18,7 +18,6 @@ body{
         font-size: 16px;
         padding: 10px;
     }
-
     img {
         max-width: 100%;
         height: auto;
@@ -28,39 +27,6 @@ body{
         padding-left: 15px;
         padding-right: 15px;
         font-size: 18px;
-    }
-
-    ul {
-        flex-direction: column;
-        padding: 10px 0;
-        margin: 0 auto;
-        width: fit-content;
-    }
-
-    ul li {
-        margin: 10px 0;
-    }
-
-    a {
-        max-width: 100%;
-        padding: 12px 20px;
-        font-size: 18px;
-    }
-
-    .glavno {
-        height: auto;
-        padding: 20px;
-    }
-
-    .sliki {
-        flex-direction: column;
-        padding: 10px 20px;
-    }
-
-    .sliki img {
-        margin: 0 0 10px 0;
-        max-width: 100%;
-        height: auto;
     }
 }
 .glavno {
